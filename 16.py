@@ -1,0 +1,5 @@
+tmp = int(input('Tempo de duração do evento (em segundos): '))
+horas = int(tmp//3600)
+minutos = int((tmp % 3600)//60)
+segundos = int((tmp % 3600)%60)
+print('O evento durou', horas, 'horas', minutos, 'minutos e', segundos, 'segundos')

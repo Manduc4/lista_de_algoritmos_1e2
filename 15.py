@@ -1,0 +1,5 @@
+idade = float(input('Idade em dias: '))
+anos = int(idade//365)
+meses = int((idade % 365)//30)
+dias = int((idade % 365) % 30)
+print('Você tem ', anos, 'anos', meses, 'meses e', dias, 'dias')
